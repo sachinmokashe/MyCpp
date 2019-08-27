@@ -1,9 +1,10 @@
 #include <iostream>
 
-void function()
+int function()
 {
 	
 	cout<<endl<<"Hello Function()";
+	return 0;
 }
 
 void display
