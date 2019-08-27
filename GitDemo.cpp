@@ -7,15 +7,15 @@ int function()
 	return 0;
 }
 
-void display
+void display(int var)
 {
-		std::cout<<std::endl<<"Hello Display";
+		std::cout<<std::endl<<"Hello Display var: "<<var;
 }
 
 int main()
 {
 	std::cout<<std::endl<<"Hello Git hub ";
-	display();
+	display(10);
 	function();
 	return 0;
 }
