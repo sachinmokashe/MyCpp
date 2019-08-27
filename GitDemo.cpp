@@ -6,11 +6,16 @@ void function()
 	cout<<endl<<"Hello Function()";
 }
 
+void display
+{
+		std::cout<<std::endl<<"Hello Display";
+}
+
 int main()
 {
-	cout<<endl<<"Hello Git hub ";
+	std::cout<<std::endl<<"Hello Git hub ";
+	display();
 	function();
-	cout<<endl<<"Done...! ";
 	return 0;
 }
 
